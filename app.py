@@ -2,7 +2,7 @@ import os
 from google import genai
 
 # 1. API 키 설정 (영우님 키)
-api_key = "AIzaSyCxLsJD05HVqJuVkIZA99c1ZqW36vJGEz4"
+api_key = ""
 client = genai.Client(api_key=api_key)
 
 # 2. 가상 DB 로드
